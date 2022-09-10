@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-peg": "npx peggy lib/macroParser.pegjs"
   },
   "dependencies": {
     "next": "12.3.0",
+    "peggy": "^2.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

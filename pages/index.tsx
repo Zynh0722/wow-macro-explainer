@@ -3,6 +3,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+import parser from 'lib/macroParser'
+
+
+function parse() {
+  console.log(parser.parse('/uwu test testy\n/s Does this work?'));
+}
+
+parse()
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
