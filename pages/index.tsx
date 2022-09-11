@@ -7,7 +7,7 @@ import parser from 'lib/macroParser'
 
 
 function parse() {
-  console.log(parser.parse('/uwu test testy\n/s Does this work?'));
+  console.log(parser.parse('/uwu [@focus] test testy\n/s Does this work?;'));
 }
 
 parse()
