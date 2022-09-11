@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx peggy lib/macroParser.pegjs && next build && next export",
     "start": "next start",
     "lint": "next lint",
     "build-peg": "npx peggy lib/macroParser.pegjs"
